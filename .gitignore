@@ -1,0 +1,5 @@
+# backup and log files and compiled sources
+*.pyc
+*.bak
+*.*~
+*.swp
