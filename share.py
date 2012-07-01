@@ -23,7 +23,7 @@ def listar_tags(tags):
 
     for tag in tags:
         if tag.term != 'slide':
-            l.append('#%s' % tag.term)
+            l.append('#%s' % tag.term.replace(' ', ''))
 
     selecao = []
     numero_tags = len(l)
